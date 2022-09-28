@@ -15,6 +15,7 @@ public class TipCalculator {
         //get bill with tip
         double perPerson=total/people;
         //what each person has to pay
+        //I need to figure out tip per person and rounding up.
         System.out.println("The total bill is $"+total);
         System.out.println("Each person has to pay a tip of $");
         System.out.println("Each person will have to pay a total of $"+perPerson+".");
